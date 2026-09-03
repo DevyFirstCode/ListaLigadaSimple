@@ -1,0 +1,20 @@
+public class Nodo {
+    private final int dato;
+    private Nodo siguiente;
+
+    public Nodo(int dato) {
+        this.dato = dato;
+    }
+
+    public int getDato() {
+        return dato;
+    }
+
+    public Nodo getSiguiente() {
+        return siguiente;
+    }
+
+    public void setSiguiente(Nodo siguiente) {
+        this.siguiente = siguiente;
+    }
+}
